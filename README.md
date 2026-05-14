@@ -11,6 +11,31 @@ This project is the experimental code of the paper "[Efficient and Privacy-Prese
 - [项目声明 Project Statement](#项目声明-project-statement)
 
 
+## 项目目录 Project Directory
+
+本项目包含如下主要文件：
+
+- `argument.py`  
+  - 参数配置文件，用于定义实验或运行时的超参数。
+
+- `distancelist.py`  
+  - 距离列表相关功能模块，用于计算时间序列与 MPC 计算中的距离度量。
+
+- `getdata.py`  
+  - 数据获取与预处理模块，用于读取和处理输入数据集。
+
+- `main.py`  
+  - 主程序入口，调用其他模块进行实验或运行推理。
+
+- `mpc_comp.py`  
+  - MPC 比较协议测试模块。
+
+- `mpc_multy.py`  
+  - MPC 乘法计算测试模块，包含mpc秘密分享，安全加法与乘法操作。
+
+- `sinandcos.py`  
+  - MPC 正弦和余弦计算函数。
+
 
 ## 项目声明 Project Statement
 
