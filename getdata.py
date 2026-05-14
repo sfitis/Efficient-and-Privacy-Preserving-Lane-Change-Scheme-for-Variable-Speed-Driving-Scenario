@@ -1,3 +1,5 @@
+#由于设计版权问题，无法上传真实数据集，这里仅简单模拟
+
 def get_lc_request():
     return [1, 70, "Left", 3, "Active"] #在最右侧车道，即3号车道上
     #return [1, 70, "None", 2, "Active"]
